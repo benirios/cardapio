@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgba(255, 237, 213, 1);
+    font-family: 'roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+header{
+    padding: 32px 0;
+    text-align: center;
+}
+section,center{
+    max-width: 300px;
+   margin: auto;
+
+}
+section h2{
+    background-color: rgba(254, 215, 170, 1) ;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 18px;
+
+    margin-bottom: 24px;
+}
+ul li{
+    margin-bottom: 16px;
+    display: flex;
+}
+li .descripition{
+    max-width: 240px;
+}
+
+header h1 span{
+    color: #995000;
+}
+header p{
+    font-size: 14;
+}
+header h1{
+    font-size: 28;
+}
+h1, h2, h3, .price{
+ font-family: 'roboto-serif', serif;
+ text-transform: uppercase;
+ color:#2d2c2a
+}
+.details h3{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.details p{
+    color: rgba(0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+
+}
